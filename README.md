@@ -12,10 +12,12 @@ even more. But I wanted to put a simpler solution out there.
 
 Usage is fairly simple. 
 
+<pre>
 $('a').click(function(evnt) {
     evnt.preventDefault();
     new JumbalakkaLinkPost($(this).attr('href')).doPost();
 });​
+</pre>
 
 The code is in pure JS but I am using Jquery here to demonstrate the usage. 
 http://jsfiddle.net/MAsP7/9/
