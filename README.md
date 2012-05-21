@@ -20,5 +20,5 @@ $('a').click(function(evnt) {
 </pre>
 
 The code is in pure JS but I am using Jquery here to demonstrate the usage. 
-http://jsfiddle.net/MAsP7/9/
+http://jsfiddle.net/amit_bhavadas/qgKQM/2/
 
