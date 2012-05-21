@@ -25,6 +25,8 @@ JumbalakkaLinkPost.prototype.doPost = function()
 	
 	formContent.action = this.link;
 	
+	formContent.method = 'post';
+	
 	for( var key in this.parameters )
 	{
 		formContent.innerHTML += "<input type='hidden' name='" + key + "' " +
